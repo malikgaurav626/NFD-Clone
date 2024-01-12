@@ -1,0 +1,288 @@
+.navbar-top {
+  width: 100%;
+  background-color: #e6e9ef !important;
+  z-index: 1000 !important;
+  backdrop-filter: blur(0px);
+  transition: 0.2s all;
+  opacity: 1;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  padding: 14px 0px;
+}
+.container-fluid-active {
+  padding: 16px 0px;
+  background-color: #ffffff;
+  transition: 0.4s all;
+}
+.container-fluid {
+  margin: 0px 16px;
+  border-radius: 30px;
+  transition: 0.4s all;
+}
+.navbar-nav-active {
+  margin-left: 0px;
+  transition: 0.4s all !important;
+}
+.navbar-nav {
+  transition: 0.4s all !important;
+}
+
+.navbar-normal {
+  background-color: rgba(55, 49, 69, 0.8) !important;
+  backdrop-filter: blur(3px);
+  transition: opacity 0.5s ease 0s;
+  opacity: 1;
+  transition: 0.2s all;
+  position: sticky;
+  top: 0;
+  height: 81px;
+  padding: 14px 0px;
+  z-index: 1000 !important;
+}
+.navbar {
+  font-family: "Formular Regular", sans-serif;
+}
+.navbar-brand {
+    transition: 0.3s all;
+  display: flex;
+  padding-left: 48px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-title {
+  padding-left: 22px;
+  transform: translateY(-2px);
+}
+svg {
+  transition: 0.2s all;
+}
+.nav-link {
+  font-family: "Formular", sans-serif;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 24px;
+  border-bottom: 2px solid rgba(108, 82, 238, 0);
+  padding-bottom: 3px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  padding-top: 4.3px !important;
+  margin-left: 17px;
+  margin-right: 11px;
+}
+.nav-link-top {
+  color: rgb(79, 86, 98);
+  transition: 0.5s all;
+}
+.nav-link-normal {
+  color: #e6e9ef;
+  transition: 0.3s all;
+}
+.nav-link:hover {
+  color: rgb(108, 82, 238);
+  text-decoration: none;
+  border-bottom: 2px solid rgb(108, 82, 238);
+  transition: 0.3s all;
+}
+.socials-container {
+  display: flex;
+}
+.social-icon {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#social-discord {
+  margin-right: 5px;
+}
+#social-twitter {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.hidable-btn {
+  background-color: #6675f6;
+  font-family: "Formular", sans-serif;
+  font-size: 14px;
+  border-radius: 8px;
+  border: transparent;
+  font-weight: 400;
+  color: #e6e9ef;
+  backface-visibility: visible;
+  height: 49px;
+  width: 116px;
+  position: relative;
+  overflow: hidden;
+  transition: 1s all;
+}
+
+.hidable-btn::before {
+  top: -10px;
+  left: -10px;
+  transform: rotate(45deg);
+  background-color: #e6e9ef;
+  content: "";
+}
+
+.hidable-btn::after {
+  bottom: -10px;
+  right: -10px;
+  transform: rotate(45deg);
+  content: "";
+  background-color: #e6e9ef;
+}
+.hidable-btn:hover {
+  background-color: #955efc;
+  transition: 1s all;
+}
+#disappearing-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Formular", sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 16.1px;
+  text-align: center;
+  width: 380px;
+  overflow: hidden;
+}
+#disappearing-btns a {
+  margin-right: 15px;
+}
+#platform-btn {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+  text-decoration: none;
+}
+#combine-btn {
+  margin-right: 50px !important;
+  text-decoration: none;
+}
+#combine-btn button {
+  padding: 0px 20px;
+}
+#platform-btn button {
+  padding: 16px 20px;
+}
+.pre {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.1px;
+  color: #e6e9ef;
+  transform: translateY(8px);
+}
+.nav-toggler-icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-toggler{
+    margin-right: 15px;
+    border: none;
+}
+
+@media (max-width: 1200px) {
+  #disapperaing-btns {
+    width: 200px !important;
+    justify-content: start !important;
+  }
+  #disappearing-btns a {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+  #platform-btn {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+  #combine-btn {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+  .nav-link {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #contact-nav {
+    margin-right: 0px !important;
+  }
+  #combine-btn pre {
+    font-size: 12px !important;
+  }
+  #combine-btn button {
+    padding: 0px 10px;
+  }
+  #platform-btn button {
+    font-size: 12px !important;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 991px) {
+    .socials-container{
+        width: 100%;
+        justify-content: center;
+    }
+    #social-discord{
+        margin: 0px !important;
+    }
+    #social-twitter{
+        margin: 0px !important;
+    }
+    .navbar-collapse-normal{
+    background-color: rgba(55, 49, 69, 0.8) !important;
+    transform: translateY(14.3px);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px 0px 15px 15px;
+    backdrop-filter: blur(1px) !important;
+    z-index: 777;
+    }
+    .navbar-collapse-top{
+        background-color: white !important;
+    transform: translateY(14.3px);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0px 0px 15px 15px;
+    }
+    #disappearing-btns{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .nav-link{
+      font-size: 20px !important;
+      padding-bottom: 5px;
+      border-bottom: 2px solid black;
+      width: fit-content;
+    }
+    .nav-item{
+      width: 100%;
+      justify-content: center;
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .socials-container{
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .navbar-brand{
+        padding-left: 10px;
+        transition: 0.3s all;
+    }
+}

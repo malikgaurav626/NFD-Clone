@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-blackitalic-trial.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-black-trial.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-bolditalic-trial.otf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-bold-trial.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-extralightitalic-trial.otf");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-extralight-trial.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-lightitalic-trial.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-light-trial.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-mediumitalic-trial.otf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-medium-trial.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-mono-trial.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-regularitalic-trial.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-regular-trial.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-ultra-italic-trial.otf");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Formular";
+  src: url("/fonts/formular-ultra-trial.otf");
+  font-weight: 800;
+}
+body::-webkit-scrollbar {
+  width: 1px;
+}
+body {
+  margin: 0 ;
+  overflow-x: hidden;
+  padding: 0 !important;
+  background-color: #e6e9ef;
+  font-family: "Formular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
